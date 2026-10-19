@@ -22,9 +22,9 @@ Browse the catalogue below and open a local notebook with JupyterLab, or use the
 For a basic local environment, run these commands from the repository directory:
 
 ```bash
-python3 -m venv .venv
+uv venv .venv
 source .venv/bin/activate
-python -m pip install jupyterlab numpy matplotlib scipy pillow
+uv pip install jupyterlab numpy matplotlib scipy pillow
 jupyter lab
 ```
 
