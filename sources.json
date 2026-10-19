@@ -1,0 +1,733 @@
+{
+  "source_repository": "https://github.com/udlbook/udlbook",
+  "source_index": "https://udlbook.github.io/udlbook/",
+  "source_commit": "da1334fb8e92700e1f2ff3216387da2e68af9d25",
+  "source_commit_url": "https://github.com/udlbook/udlbook/commit/da1334fb8e92700e1f2ff3216387da2e68af9d25",
+  "downloaded_on": "2026-10-19",
+  "notebooks": [
+    {
+      "number": "1.1",
+      "title": "Background mathematics",
+      "description": "Review the mathematical building blocks used throughout the book, including linear functions, vectors, and matrices.",
+      "path": "Notebooks/Chap01/1_1_BackgroundMathematics.ipynb",
+      "sha256": "9fa083307770708572adccc654238ac329c98db42407d3d87932366cb1ebfd86",
+      "git_blob_sha": "2c8d67b2b499c388fcf478b49f752074e95173cf",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap01/1_1_BackgroundMathematics.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap01/1_1_BackgroundMathematics.ipynb"
+    },
+    {
+      "number": "2.1",
+      "title": "Supervised learning",
+      "description": "Explore linear regression, adjust its parameters, and visualize the supervised learning loss surface.",
+      "path": "Notebooks/Chap02/2_1_Supervised_Learning.ipynb",
+      "sha256": "843266d6a53003ff5de4fcfb329f6701a938c17987a0fa9e2ebd03f47a11e54d",
+      "git_blob_sha": "121dac1176ebe530e51dfc1b28d04d03c8834e1d",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap02/2_1_Supervised_Learning.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap02/2_1_Supervised_Learning.ipynb"
+    },
+    {
+      "number": "3.1",
+      "title": "Shallow networks I",
+      "description": "Construct a shallow network with one input and visualize how its hidden units combine into an output function.",
+      "path": "Notebooks/Chap03/3_1_Shallow_Networks_I.ipynb",
+      "sha256": "a96d36d2409d43a7cc73d05f81e0f44b54847c9174537f3547984ad281210989",
+      "git_blob_sha": "06ca153bf91ba53e57d66c785abc4ae78d53677f",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap03/3_1_Shallow_Networks_I.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap03/3_1_Shallow_Networks_I.ipynb"
+    },
+    {
+      "number": "3.2",
+      "title": "Shallow networks II",
+      "description": "Extend shallow networks to two input dimensions and examine their output surfaces and multiple outputs.",
+      "path": "Notebooks/Chap03/3_2_Shallow_Networks_II.ipynb",
+      "sha256": "efb733767b884de9cde6b88e87f320e61ecd093e9fbb5248385257afcf4658e1",
+      "git_blob_sha": "a1131d673cbb9f0caa4f600077d0c320867abe4a",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap03/3_2_Shallow_Networks_II.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap03/3_2_Shallow_Networks_II.ipynb"
+    },
+    {
+      "number": "3.3",
+      "title": "Shallow network regions",
+      "description": "Calculate the maximum number of linear regions produced by shallow networks as input dimension and width change.",
+      "path": "Notebooks/Chap03/3_3_Shallow_Network_Regions.ipynb",
+      "sha256": "297d543162ceee0fdd79305881863454d3691baac986669556916d25363bd44b",
+      "git_blob_sha": "e74eb2162c526dc020b523cff5db4173fa368c32",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap03/3_3_Shallow_Network_Regions.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap03/3_3_Shallow_Network_Regions.ipynb"
+    },
+    {
+      "number": "3.4",
+      "title": "Activation functions",
+      "description": "Compare activation functions and observe how each changes the functions a shallow network can represent.",
+      "path": "Notebooks/Chap03/3_4_Activation_Functions.ipynb",
+      "sha256": "797ca3371fdc6ab1d610ae5194b5e9cfbab993d08e920f38836a1d90313b8e4d",
+      "git_blob_sha": "c1229872c82d307ebd6d52435fff0653f145d56d",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap03/3_4_Activation_Functions.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap03/3_4_Activation_Functions.ipynb"
+    },
+    {
+      "number": "4.1",
+      "title": "Composing networks",
+      "description": "Feed one neural network into another and visualize how composing networks changes the resulting function.",
+      "path": "Notebooks/Chap04/4_1_Composing_Networks.ipynb",
+      "sha256": "91d35367cdcda180cb918000d627cc2e6e3bc7bfa18102dcf778a519a2fdf89a",
+      "git_blob_sha": "732d2d0d1b866f78d21d867a49933e4942ec5866",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap04/4_1_Composing_Networks.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap04/4_1_Composing_Networks.ipynb"
+    },
+    {
+      "number": "4.2",
+      "title": "Clipping functions",
+      "description": "Examine how hidden layers clip and recombine intermediate functions to create more complex outputs.",
+      "path": "Notebooks/Chap04/4_2_Clipping_functions.ipynb",
+      "sha256": "89bea8ef3aef5940dc241c5e1c64dfd802c2bddc76f54aed07ac7fcd88a9436b",
+      "git_blob_sha": "e2712440264b462a77a4e4e997fa2888cba6bb58",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap04/4_2_Clipping_functions.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap04/4_2_Clipping_functions.ipynb"
+    },
+    {
+      "number": "4.3",
+      "title": "Deep networks",
+      "description": "Express neural networks with matrices and implement forward propagation through multiple hidden layers.",
+      "path": "Notebooks/Chap04/4_3_Deep_Networks.ipynb",
+      "sha256": "eab9a3d355618ce61478b3b99be0dbbb7759f1f880a0786575468c42084f362d",
+      "git_blob_sha": "fe56d2fb289bc381f08bd80b7dd7b7138ef022bb",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap04/4_3_Deep_Networks.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap04/4_3_Deep_Networks.ipynb"
+    },
+    {
+      "number": "5.1",
+      "title": "Least squares loss",
+      "description": "Connect least squares regression to Gaussian likelihood and negative log likelihood.",
+      "path": "Notebooks/Chap05/5_1_Least_Squares_Loss.ipynb",
+      "sha256": "4e3e6fcca20f737fd9083dc7870bddebb2e485b133089aef949c0da785594acd",
+      "git_blob_sha": "37cf704bb0592da97b7998cbead0982658c02819",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap05/5_1_Least_Squares_Loss.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap05/5_1_Least_Squares_Loss.ipynb"
+    },
+    {
+      "number": "5.2",
+      "title": "Binary cross-entropy loss",
+      "description": "Derive binary classification probabilities and cross-entropy loss from a Bernoulli likelihood.",
+      "path": "Notebooks/Chap05/5_2_Binary_Cross_Entropy_Loss.ipynb",
+      "sha256": "109d637e7ce94eff9d0c613aebe2a4235b8e3e9559fa3f44c9e6cd5361a693b2",
+      "git_blob_sha": "8548602aab1d9cd3dde5c2e4baed7f6d1b417d20",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap05/5_2_Binary_Cross_Entropy_Loss.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap05/5_2_Binary_Cross_Entropy_Loss.ipynb"
+    },
+    {
+      "number": "5.3",
+      "title": "Multiclass cross-entropy loss",
+      "description": "Use softmax outputs and a categorical likelihood to compute multiclass cross-entropy loss.",
+      "path": "Notebooks/Chap05/5_3_Multiclass_Cross_entropy_Loss.ipynb",
+      "sha256": "c3492d0f2a03d3b51794da1fc69e314d845e988794e21ad968bb6bfd0efc7677",
+      "git_blob_sha": "7785f6cf3f6f6663249d19d38e56234e921ac91f",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap05/5_3_Multiclass_Cross_entropy_Loss.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap05/5_3_Multiclass_Cross_entropy_Loss.ipynb"
+    },
+    {
+      "number": "6.1",
+      "title": "Line search",
+      "description": "Implement a line search procedure to find the minimum of a one-dimensional function.",
+      "path": "Notebooks/Chap06/6_1_Line_Search.ipynb",
+      "sha256": "fa7707ddabf0396ceab2fa1a2de51e9bc5a07ee78f5afb19e0a6f3c0e47248a2",
+      "git_blob_sha": "ae8aab11384a18c953f41927a1459f770c8a08d8",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap06/6_1_Line_Search.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap06/6_1_Line_Search.ipynb"
+    },
+    {
+      "number": "6.2",
+      "title": "Gradient descent",
+      "description": "Implement gradient descent and visualize its path across a loss surface.",
+      "path": "Notebooks/Chap06/6_2_Gradient_Descent.ipynb",
+      "sha256": "f351363b88716bacdc2aef0ddab2dc66fe036c5ec3b7f96ba5d4e1bcf5146e4d",
+      "git_blob_sha": "08731db700a8a5b256b16489d408b4af5c7466b7",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap06/6_2_Gradient_Descent.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap06/6_2_Gradient_Descent.ipynb"
+    },
+    {
+      "number": "6.3",
+      "title": "Stochastic gradient descent",
+      "description": "Compare gradient descent with stochastic updates and examine their optimization trajectories.",
+      "path": "Notebooks/Chap06/6_3_Stochastic_Gradient_Descent.ipynb",
+      "sha256": "53a652afa129ce8eb6c92c0e03dc748ac6dbe5930951640aa18abf6c974463bc",
+      "git_blob_sha": "34d6ed52047b57e24df003f254b22ffa82154390",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap06/6_3_Stochastic_Gradient_Descent.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap06/6_3_Stochastic_Gradient_Descent.ipynb"
+    },
+    {
+      "number": "6.4",
+      "title": "Momentum",
+      "description": "Investigate how momentum changes optimization updates and movement across a loss surface.",
+      "path": "Notebooks/Chap06/6_4_Momentum.ipynb",
+      "sha256": "d006ec4e1a588f60f14fd73712beb1f8427242efa576d7818445268ca11d340d",
+      "git_blob_sha": "014ec14f42d8c62c695f18bd4f6f198ba6ffb633",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap06/6_4_Momentum.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap06/6_4_Momentum.ipynb"
+    },
+    {
+      "number": "6.5",
+      "title": "Adam",
+      "description": "Implement Adam and study its adaptive, momentum-based parameter updates.",
+      "path": "Notebooks/Chap06/6_5_Adam.ipynb",
+      "sha256": "852a05af2978581efd3ef787a6bdd8c5bbe2b9323af4c5f1b03cbb50ed45bbc1",
+      "git_blob_sha": "476bbaff2868bb1bacef35e8aa3e2eb2f25830aa",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap06/6_5_Adam.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap06/6_5_Adam.ipynb"
+    },
+    {
+      "number": "7.1",
+      "title": "Backpropagation in toy model",
+      "description": "Compute derivatives of a toy composite function to understand the steps behind backpropagation.",
+      "path": "Notebooks/Chap07/7_1_Backpropagation_in_Toy_Model.ipynb",
+      "sha256": "828603495ba2646189a2989bbc49289ce539fb77e0b11b6ca21829e170355ce1",
+      "git_blob_sha": "e5811bc14bff704f6365595d514c5b831f187ee8",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap07/7_1_Backpropagation_in_Toy_Model.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap07/7_1_Backpropagation_in_Toy_Model.ipynb"
+    },
+    {
+      "number": "7.2",
+      "title": "Backpropagation",
+      "description": "Implement forward and backward passes to compute gradients in a deep neural network.",
+      "path": "Notebooks/Chap07/7_2_Backpropagation.ipynb",
+      "sha256": "645a8cdb302feca1c08b35821fc3a2d6e826cd102baefa3c2e984de4605556ad",
+      "git_blob_sha": "272e2691548ab6d8309c44521d15a6bbca7600d0",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap07/7_2_Backpropagation.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap07/7_2_Backpropagation.ipynb"
+    },
+    {
+      "number": "7.3",
+      "title": "Initialization",
+      "description": "Measure how weight initialization affects activation magnitudes and backpropagated gradients.",
+      "path": "Notebooks/Chap07/7_3_Initialization.ipynb",
+      "sha256": "d0d3cc6064044d9bf5d72fb42eda244fb41ef60e0c76533c490584d84031a610",
+      "git_blob_sha": "e813c05bb0e9bc3eeb40b4935f938463fd71e7f9",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap07/7_3_Initialization.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap07/7_3_Initialization.ipynb"
+    },
+    {
+      "number": "8.1",
+      "title": "MNIST-1D performance",
+      "description": "Train a simple neural network on MNIST-1D and inspect its classification performance.",
+      "path": "Notebooks/Chap08/8_1_MNIST_1D_Performance.ipynb",
+      "sha256": "e1e901bb39beeee76dd1518de44f216480062895e602c4d99b157499939273bd",
+      "git_blob_sha": "9f06f6842b3f81b6f7079668236cac9edfc58b19",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap08/8_1_MNIST_1D_Performance.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap08/8_1_MNIST_1D_Performance.ipynb"
+    },
+    {
+      "number": "8.2",
+      "title": "Bias-variance trade-off",
+      "description": "Separate bias and variance in a toy regression model and explore their trade-off.",
+      "path": "Notebooks/Chap08/8_2_Bias_Variance_Trade_Off.ipynb",
+      "sha256": "1a4b22b22771a869964b2d36492853376767b9447f6cd3d45412fbd839d2dfd5",
+      "git_blob_sha": "1b5ef2a3d7d216220a4372b76271fb06fdadd6a2",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap08/8_2_Bias_Variance_Trade_Off.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap08/8_2_Bias_Variance_Trade_Off.ipynb"
+    },
+    {
+      "number": "8.3",
+      "title": "Double descent",
+      "description": "Investigate double descent by varying model capacity on MNIST-1D.",
+      "path": "Notebooks/Chap08/8_3_Double_Descent.ipynb",
+      "sha256": "9d5f704276f46268d1965796ba405b395fb3466c81a3992976c9b3c6c3962fa5",
+      "git_blob_sha": "b588f8aa7c11c363d5679da97f8f32e4f30e05d4",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap08/8_3_Double_Descent.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap08/8_3_Double_Descent.ipynb"
+    },
+    {
+      "number": "8.4",
+      "title": "High-dimensional spaces",
+      "description": "Explore geometric and probabilistic properties that behave unexpectedly in high-dimensional spaces.",
+      "path": "Notebooks/Chap08/8_4_High_Dimensional_Spaces.ipynb",
+      "sha256": "4c3aa84f571bdb1c0a23d7fe08822ff9f88fff97c97ccc59c2ae1991366f18b0",
+      "git_blob_sha": "c03622b2e6677fd1f1ae51ac1bf6e8cf8c6ba446",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap08/8_4_High_Dimensional_Spaces.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap08/8_4_High_Dimensional_Spaces.ipynb"
+    },
+    {
+      "number": "9.1",
+      "title": "L2 regularization",
+      "description": "Add an L2 penalty to a Gabor regression model and examine its effect on the fitted solution.",
+      "path": "Notebooks/Chap09/9_1_L2_Regularization.ipynb",
+      "sha256": "c31bf5e003489fd2f7fe708244ce0bfe4923f936011bc120b46a8b9e0fa74832",
+      "git_blob_sha": "9c6e09073c599a06c8f03338a72ebf1d257ca229",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap09/9_1_L2_Regularization.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap09/9_1_L2_Regularization.ipynb"
+    },
+    {
+      "number": "9.2",
+      "title": "Implicit regularization",
+      "description": "Explore the implicit regularization introduced by finite gradient descent step sizes.",
+      "path": "Notebooks/Chap09/9_2_Implicit_Regularization.ipynb",
+      "sha256": "d636e6f05a509260cc4caecb1dbbd15298f614796a5ebdbecc58f66c0949d02d",
+      "git_blob_sha": "4f1e11cc990ecb9bbd8bf598497a467cd1332a9d",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap09/9_2_Implicit_Regularization.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap09/9_2_Implicit_Regularization.ipynb"
+    },
+    {
+      "number": "9.3",
+      "title": "Ensembling",
+      "description": "Combine predictions from multiple models and measure how ensembling changes prediction error.",
+      "path": "Notebooks/Chap09/9_3_Ensembling.ipynb",
+      "sha256": "46157473892b412a60d74a619b2f99ec83b11cbd1a83791a2820a2502a752eff",
+      "git_blob_sha": "272e7fe87121b10a5a306b91b49ab477cbb72b77",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap09/9_3_Ensembling.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap09/9_3_Ensembling.ipynb"
+    },
+    {
+      "number": "9.4",
+      "title": "Bayesian approach",
+      "description": "Explore Bayesian model fitting and predictions that account for parameter uncertainty.",
+      "path": "Notebooks/Chap09/9_4_Bayesian_Approach.ipynb",
+      "sha256": "63f22b7a2eaa6367f1474925b25cffcd33217e1797f0ba643db1dc14a5d61ad3",
+      "git_blob_sha": "99270b9f814109f7f2a3b60a3c6f6dbe45040627",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap09/9_4_Bayesian_Approach.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap09/9_4_Bayesian_Approach.ipynb"
+    },
+    {
+      "number": "9.5",
+      "title": "Augmentation",
+      "description": "Apply data augmentation to MNIST-1D and investigate its effect on generalization.",
+      "path": "Notebooks/Chap09/9_5_Augmentation.ipynb",
+      "sha256": "bd640b9c7563e30965c9c43f4493936dac7a7d858f4c25978ac485bbcedb21ca",
+      "git_blob_sha": "4cfea5f2cad40da991c7237f3acb98df8a3f8258",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap09/9_5_Augmentation.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap09/9_5_Augmentation.ipynb"
+    },
+    {
+      "number": "10.1",
+      "title": "1D convolution",
+      "description": "Implement one-dimensional convolution and inspect how convolutional layers transform signals.",
+      "path": "Notebooks/Chap10/10_1_1D_Convolution.ipynb",
+      "sha256": "a6c87194fc25369235198c7205a342eeee63bd642e98e12a73bca8b0d5c939f6",
+      "git_blob_sha": "df99035d38c5e775ba6196b3d2347158c2f5298a",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap10/10_1_1D_Convolution.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap10/10_1_1D_Convolution.ipynb"
+    },
+    {
+      "number": "10.2",
+      "title": "Convolution for MNIST-1D",
+      "description": "Build and evaluate a one-dimensional convolutional classifier for MNIST-1D.",
+      "path": "Notebooks/Chap10/10_2_Convolution_for_MNIST_1D.ipynb",
+      "sha256": "5d512f930dc7c3bbec03ad0049c28bf9cf4fdceedca77e92d0df00a55c6a4553",
+      "git_blob_sha": "60fbad3de11d3adda6cb2db3a8049f026c67a4e4",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap10/10_2_Convolution_for_MNIST_1D.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap10/10_2_Convolution_for_MNIST_1D.ipynb"
+    },
+    {
+      "number": "10.3",
+      "title": "2D convolution",
+      "description": "Hand-code two-dimensional convolution and compare the operation with PyTorch.",
+      "path": "Notebooks/Chap10/10_3_2D_Convolution.ipynb",
+      "sha256": "cb7334f8e190d51e78c763689588fe995084a90da0cee3f90e340536f4962587",
+      "git_blob_sha": "9e115c07facd9ed4d117b67e37fc0baba1c46876",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap10/10_3_2D_Convolution.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap10/10_3_2D_Convolution.ipynb"
+    },
+    {
+      "number": "10.4",
+      "title": "Downsampling & upsampling",
+      "description": "Explore methods for reducing and increasing the spatial resolution of feature maps.",
+      "path": "Notebooks/Chap10/10_4_Downsampling_and_Upsampling.ipynb",
+      "sha256": "4c0749143d807c9621ca64b02f30d58faad4df2615af9cb94d07e28b5a9029f0",
+      "git_blob_sha": "817097294deee5ae048c1639c851d24073c9e3f4",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap10/10_4_Downsampling_and_Upsampling.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap10/10_4_Downsampling_and_Upsampling.ipynb"
+    },
+    {
+      "number": "10.5",
+      "title": "Convolution for MNIST",
+      "description": "Train a PyTorch convolutional network to classify handwritten digits in MNIST images.",
+      "path": "Notebooks/Chap10/10_5_Convolution_For_MNIST.ipynb",
+      "sha256": "5150d924bef4ba9d27f8fca72142630c852faa5ba35d3e19bd2f68fb85453705",
+      "git_blob_sha": "64f46cf732820a0415819051113620b303e3c974",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap10/10_5_Convolution_For_MNIST.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap10/10_5_Convolution_For_MNIST.ipynb"
+    },
+    {
+      "number": "11.1",
+      "title": "Shattered gradients",
+      "description": "Study how gradients change and lose correlation as neural networks become deeper.",
+      "path": "Notebooks/Chap11/11_1_Shattered_Gradients.ipynb",
+      "sha256": "64264e752444ff5ffbe27ea5bd809f2bf9f9cdacb314a7607e3ca30995f90c91",
+      "git_blob_sha": "90d6d6154b98ff06f579a86cfab1970115a6d255",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap11/11_1_Shattered_Gradients.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap11/11_1_Shattered_Gradients.ipynb"
+    },
+    {
+      "number": "11.2",
+      "title": "Residual networks",
+      "description": "Add residual connections to MNIST-1D networks and investigate their behavior.",
+      "path": "Notebooks/Chap11/11_2_Residual_Networks.ipynb",
+      "sha256": "9c3e97aa8e774226796306cbb315ffa82b0f772029f5bddc9884d7c9a4ef089a",
+      "git_blob_sha": "8327cad712352801cec903070ddaf74ee5e8ec09",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap11/11_2_Residual_Networks.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap11/11_2_Residual_Networks.ipynb"
+    },
+    {
+      "number": "11.3",
+      "title": "Batch normalization",
+      "description": "Investigate batch normalization within residual networks.",
+      "path": "Notebooks/Chap11/11_3_Batch_Normalization.ipynb",
+      "sha256": "6a76d9284ceb5f2f64fe8611754e3f9db8c0c7ff67a3b783560e2ad925e3dbec",
+      "git_blob_sha": "fbe1c22d58adee57811906576bc2269fa9a5f87c",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap11/11_3_Batch_Normalization.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap11/11_3_Batch_Normalization.ipynb"
+    },
+    {
+      "number": "12.1",
+      "title": "Self-attention",
+      "description": "Build a self-attention mechanism from scratch using queries, keys, values, and attention weights.",
+      "path": "Notebooks/Chap12/12_1_Self_Attention.ipynb",
+      "sha256": "28a389250397bb23dfcf75df805c84fdee9e4f266640ad2d34baba2848eb4b05",
+      "git_blob_sha": "0938c710828d7ade5c3424e26dd251aaf8d3d5f3",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap12/12_1_Self_Attention.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap12/12_1_Self_Attention.ipynb"
+    },
+    {
+      "number": "12.2",
+      "title": "Multi-head self-attention",
+      "description": "Construct multi-head self-attention and combine the results of multiple attention heads.",
+      "path": "Notebooks/Chap12/12_2_Multihead_Self_Attention.ipynb",
+      "sha256": "d203a94ed583e8b7ce4a6f5ae08613e929f942929f85573a28302dd047315da3",
+      "git_blob_sha": "1b8df06c9b5c384149ac009286defa2793fe1d1f",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap12/12_2_Multihead_Self_Attention.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap12/12_2_Multihead_Self_Attention.ipynb"
+    },
+    {
+      "number": "12.3",
+      "title": "Tokenization",
+      "description": "Build tokens from text and investigate the tokenization process used by language models.",
+      "path": "Notebooks/Chap12/12_3_Tokenization.ipynb",
+      "sha256": "9e5d4b76b41ef726f2d7d89ea1b7f8222cd9e48bb05553f3f8141e404b54dcdd",
+      "git_blob_sha": "4ab060b2c51d568daeeee45c0115fa4f5e64b1b7",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap12/12_3_Tokenization.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap12/12_3_Tokenization.ipynb"
+    },
+    {
+      "number": "12.4",
+      "title": "Decoding strategies",
+      "description": "Generate text with GPT-2 using sampling, greedy selection, top-k sampling, nucleus sampling, and beam search.",
+      "path": "Notebooks/Chap12/12_4_Decoding_Strategies.ipynb",
+      "sha256": "9aeb481081a68d17748f9242690aaa1422fbd75437bad65dbe636372bc3ad5a9",
+      "git_blob_sha": "46eb9f40738b362b7825dd1a1eaf3aaf48071aa1",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap12/12_4_Decoding_Strategies.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap12/12_4_Decoding_Strategies.ipynb"
+    },
+    {
+      "number": "13.1",
+      "title": "Encoding graphs",
+      "description": "Represent graph connectivity and node information with matrices.",
+      "path": "Notebooks/Chap13/13_1_Graph_Representation.ipynb",
+      "sha256": "c5c8f4d92c64b242593205eb7ce0e6bb4870f3fd123750a5ee130b02ec6e49e4",
+      "git_blob_sha": "34a5a690b7351c7cfd02b75cb3c6eb78f052d09c",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap13/13_1_Graph_Representation.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap13/13_1_Graph_Representation.ipynb"
+    },
+    {
+      "number": "13.2",
+      "title": "Graph classification",
+      "description": "Build a graph network that maps molecular structures of different sizes to a binary output.",
+      "path": "Notebooks/Chap13/13_2_Graph_Classification.ipynb",
+      "sha256": "079f06b3d32e90b6d870ce145d6bfd0d428e24a27013d5bc5609ecafe99206d9",
+      "git_blob_sha": "890160c97dc4e25655293e01824332ebc01c62ed",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap13/13_2_Graph_Classification.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap13/13_2_Graph_Classification.ipynb"
+    },
+    {
+      "number": "13.3",
+      "title": "Neighborhood sampling",
+      "description": "Explore neighborhood sampling as a way to process graphs without aggregating every neighbor.",
+      "path": "Notebooks/Chap13/13_3_Neighborhood_Sampling.ipynb",
+      "sha256": "e9389ca69ea35b5393c9e85fbbc556d623824807b0691f4bcad32ef290bbd0a2",
+      "git_blob_sha": "650a7c574568e4781cb242c5e462e4f025e401be",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap13/13_3_Neighborhood_Sampling.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap13/13_3_Neighborhood_Sampling.ipynb"
+    },
+    {
+      "number": "13.4",
+      "title": "Graph attention",
+      "description": "Implement graph attention from scratch to weight messages from neighboring nodes.",
+      "path": "Notebooks/Chap13/13_4_Graph_Attention_Networks.ipynb",
+      "sha256": "8df2a1d1ab652023b77231f88faf5dd734d7c1f2cf6594cfeccac29336bc5f16",
+      "git_blob_sha": "7086248a888542d7d262c3a70702a11b676861a2",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap13/13_4_Graph_Attention_Networks.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap13/13_4_Graph_Attention_Networks.ipynb"
+    },
+    {
+      "number": "15.1",
+      "title": "GAN toy example",
+      "description": "Explore a toy generative adversarial network and the interaction between its generator and discriminator.",
+      "path": "Notebooks/Chap15/15_1_GAN_Toy_Example.ipynb",
+      "sha256": "ce99aedc3bbf19cd25aae02f9df3e899ac5b33358375f25df213e05a206eef14",
+      "git_blob_sha": "a9fcc8be3af98c4c6b41a596b5942d7fa17ee846",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap15/15_1_GAN_Toy_Example.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap15/15_1_GAN_Toy_Example.ipynb"
+    },
+    {
+      "number": "15.2",
+      "title": "Wasserstein distance",
+      "description": "Compute Wasserstein distance through an optimal transport linear program and compare distribution divergences.",
+      "path": "Notebooks/Chap15/15_2_Wasserstein_Distance.ipynb",
+      "sha256": "872af1ff14b152ed73564c1e86166a9a3dac81b43319477faac3336b0c1ee20e",
+      "git_blob_sha": "25cac8ae1f86c200933a9a1b9eb98e49ec2db7bd",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap15/15_2_Wasserstein_Distance.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap15/15_2_Wasserstein_Distance.ipynb"
+    },
+    {
+      "number": "16.1",
+      "title": "1D normalizing flows",
+      "description": "Transform one-dimensional probability distributions with invertible normalizing flows.",
+      "path": "Notebooks/Chap16/16_1_1D_Normalizing_Flows.ipynb",
+      "sha256": "693d4df8754400efbe19145112b9cd5381aa3fdb4cb506b3524c5734f4657cff",
+      "git_blob_sha": "cbe5ff537fa41760ad1164cf69b831a6ec754de6",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap16/16_1_1D_Normalizing_Flows.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap16/16_1_1D_Normalizing_Flows.ipynb"
+    },
+    {
+      "number": "16.2",
+      "title": "Autoregressive flows",
+      "description": "Implement an autoregressive flow, its inverse, and a check that the transformation is invertible.",
+      "path": "Notebooks/Chap16/16_2_Autoregressive_Flows.ipynb",
+      "sha256": "a6c93798527fcc72033656e53774c5b8c0e1e1e4f119066dbe6e4b7f5621cd2a",
+      "git_blob_sha": "458345530de597e3b71fdf082284afe5222bc141",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap16/16_2_Autoregressive_Flows.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap16/16_2_Autoregressive_Flows.ipynb"
+    },
+    {
+      "number": "16.3",
+      "title": "Contraction mappings",
+      "description": "Use fixed-point iteration with contraction mappings and invert a residual transformation.",
+      "path": "Notebooks/Chap16/16_3_Contraction_Mappings.ipynb",
+      "sha256": "18f3f54a8c02f04e6b2a2a752dc15396e08511652ce72b8ad63f785f2e1e72ce",
+      "git_blob_sha": "b97f7550c23cc6c11efd42ec097ae3e2d2d9f688",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap16/16_3_Contraction_Mappings.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap16/16_3_Contraction_Mappings.ipynb"
+    },
+    {
+      "number": "17.1",
+      "title": "Latent variable models",
+      "description": "Explore a nonlinear latent variable model and how hidden variables generate observed data.",
+      "path": "Notebooks/Chap17/17_1_Latent_Variable_Models.ipynb",
+      "sha256": "b201291c77a440d66315c62414b754aa0fafd86a80afbdfda734d083c578425f",
+      "git_blob_sha": "17303503bcd4e7bd0dd6d32d1d963693941b3999",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap17/17_1_Latent_Variable_Models.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap17/17_1_Latent_Variable_Models.ipynb"
+    },
+    {
+      "number": "17.2",
+      "title": "Reparameterization trick",
+      "description": "Investigate the reparameterization trick for computing gradients through random samples.",
+      "path": "Notebooks/Chap17/17_2_Reparameterization_Trick.ipynb",
+      "sha256": "7bf489d4532645964e40776e13454e7f79d2b3a949c8748d959b2e85f0a7f2cd",
+      "git_blob_sha": "2fa0429ce90ed964c8ed1e1e50d6149edcaafd32",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap17/17_2_Reparameterization_Trick.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap17/17_2_Reparameterization_Trick.ipynb"
+    },
+    {
+      "number": "17.3",
+      "title": "Importance sampling",
+      "description": "Estimate quantities using importance sampling and examine the role of proposal distributions.",
+      "path": "Notebooks/Chap17/17_3_Importance_Sampling.ipynb",
+      "sha256": "f4039c989976f0a7d00f87c12c871411ad3f7fbf311cbef71ec384b5313c2ef2",
+      "git_blob_sha": "402460f36ee03160452751a08ea547ab5e369e2d",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap17/17_3_Importance_Sampling.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap17/17_3_Importance_Sampling.ipynb"
+    },
+    {
+      "number": "18.1",
+      "title": "Diffusion encoder",
+      "description": "Implement a diffusion encoder and visualize the gradual corruption of data with noise.",
+      "path": "Notebooks/Chap18/18_1_Diffusion_Encoder.ipynb",
+      "sha256": "640ef7fb66abd81fda90acc85e4ce4664aa63df8caf3ac2ab886b6c81e2e685f",
+      "git_blob_sha": "7b8028a91018ce4b401a48603b783dcff528837d",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap18/18_1_Diffusion_Encoder.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap18/18_1_Diffusion_Encoder.ipynb"
+    },
+    {
+      "number": "18.2",
+      "title": "1D diffusion model",
+      "description": "Build a one-dimensional diffusion model and sample data through its learned reverse process.",
+      "path": "Notebooks/Chap18/18_2_1D_Diffusion_Model.ipynb",
+      "sha256": "e69656b48341a14ba6eacdc15b1d58e8c97361555aec220f94263a4ed60a1b1f",
+      "git_blob_sha": "c59e6524b5dc527c7e8f360fd6dd5bdd825c2477",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap18/18_2_1D_Diffusion_Model.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap18/18_2_1D_Diffusion_Model.ipynb"
+    },
+    {
+      "number": "18.3",
+      "title": "Reparameterized model",
+      "description": "Reparameterize a diffusion model to predict noise and generate samples through reverse diffusion.",
+      "path": "Notebooks/Chap18/18_3_Reparameterized_Model.ipynb",
+      "sha256": "e7b50e43583a7a580098bc0246b1314137b294d14777123c399f3f93e67af76b",
+      "git_blob_sha": "93f7c2f4a2a774586848759244967eeb19b67f8c",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap18/18_3_Reparameterized_Model.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap18/18_3_Reparameterized_Model.ipynb"
+    },
+    {
+      "number": "18.4",
+      "title": "Families of diffusion models",
+      "description": "Explore families of diffusion sampling processes inspired by denoising diffusion implicit models.",
+      "path": "Notebooks/Chap18/18_4_Families_of_Diffusion_Models.ipynb",
+      "sha256": "e54164ea1d8a211754c1d498ec02e4bf44d58af5f6951fd54ea2926cde20a929",
+      "git_blob_sha": "335e848f660063b9cece756a99976dfb401404c1",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap18/18_4_Families_of_Diffusion_Models.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap18/18_4_Families_of_Diffusion_Models.ipynb"
+    },
+    {
+      "number": "19.1",
+      "title": "Markov decision processes",
+      "description": "Simulate Markov processes, rewards, actions, and discounted returns in a gridworld.",
+      "path": "Notebooks/Chap19/19_1_Markov_Decision_Processes.ipynb",
+      "sha256": "b989b1269d59559976bc4e06761ac5bc72d85e50b917e032a9074866d1f98934",
+      "git_blob_sha": "76b285417901b5cb5804c82465a10e973348af7e",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap19/19_1_Markov_Decision_Processes.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap19/19_1_Markov_Decision_Processes.ipynb"
+    },
+    {
+      "number": "19.2",
+      "title": "Dynamic programming",
+      "description": "Use dynamic programming for tabular reinforcement learning in a gridworld.",
+      "path": "Notebooks/Chap19/19_2_Dynamic_Programming.ipynb",
+      "sha256": "dcf127b3f2e5a458731460bc262e1e8be92db297b432a1cd6f3ddcd0621c3efe",
+      "git_blob_sha": "f326f6bf74f87d365055d36c118b80998a45fdf4",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap19/19_2_Dynamic_Programming.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap19/19_2_Dynamic_Programming.ipynb"
+    },
+    {
+      "number": "19.3",
+      "title": "Monte-Carlo methods",
+      "description": "Estimate values and improve a tabular reinforcement learning policy using Monte Carlo episodes.",
+      "path": "Notebooks/Chap19/19_3_Monte_Carlo_Methods.ipynb",
+      "sha256": "b8ee292752879ddcc99cc37f12c11e8e60e2a02254910d6d080ff936947f28fa",
+      "git_blob_sha": "996700be10b844d1787e4e94e9281a5b9218d597",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap19/19_3_Monte_Carlo_Methods.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap19/19_3_Monte_Carlo_Methods.ipynb"
+    },
+    {
+      "number": "19.4",
+      "title": "Temporal difference methods",
+      "description": "Apply temporal difference methods to learn from transitions in the penguin gridworld.",
+      "path": "Notebooks/Chap19/19_4_Temporal_Difference_Methods.ipynb",
+      "sha256": "f7b8e076a73e4ad7189d629a53618f296370f407fb254abf8ca7e06e0f714a0b",
+      "git_blob_sha": "e8f5e0dd7ff8e16bca43360522ddaa0c1a1c33ff",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap19/19_4_Temporal_Difference_Methods.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap19/19_4_Temporal_Difference_Methods.ipynb"
+    },
+    {
+      "number": "19.5",
+      "title": "Control variates",
+      "description": "Use correlated control variates to reduce the variance of Monte Carlo estimates.",
+      "path": "Notebooks/Chap19/19_5_Control_Variates.ipynb",
+      "sha256": "23fb76ee1842c7b60b645f6c17abd77fdda744e01db94a6dcd4fed50e855bb68",
+      "git_blob_sha": "1ce945a97d0a79dd8e4fe7bdb8889ad6fcb6a012",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap19/19_5_Control_Variates.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap19/19_5_Control_Variates.ipynb"
+    },
+    {
+      "number": "20.1",
+      "title": "Random data",
+      "description": "Investigate neural network training on random data and its implications for memorization.",
+      "path": "Notebooks/Chap20/20_1_Random_Data.ipynb",
+      "sha256": "2914a1fa5a4f0ab2ed39fb1a8d2675da554ecb341b30368f82258cac85591173",
+      "git_blob_sha": "0689209f0d94de6a201b8910eaf10e4584bab2db",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap20/20_1_Random_Data.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap20/20_1_Random_Data.ipynb"
+    },
+    {
+      "number": "20.2",
+      "title": "Full-batch gradient descent",
+      "description": "Train a network with full-batch gradient descent and examine its learning behavior.",
+      "path": "Notebooks/Chap20/20_2_Full_Batch_Gradient_Descent.ipynb",
+      "sha256": "e33b6889d2f3423f8b051150ab9487c962f464fc17e9637f67f23480ec59a231",
+      "git_blob_sha": "672d827d4e7970cd66899ff9db96a397dfbab5b4",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap20/20_2_Full_Batch_Gradient_Descent.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap20/20_2_Full_Batch_Gradient_Descent.ipynb"
+    },
+    {
+      "number": "20.3",
+      "title": "Lottery tickets",
+      "description": "Prune and retrain neural networks to investigate sparse subnetworks and the lottery ticket phenomenon.",
+      "path": "Notebooks/Chap20/20_3_Lottery_Tickets.ipynb",
+      "sha256": "0f637743ed42b30513786578b5d1627be8248a79c12fefd1144b2f47475e4717",
+      "git_blob_sha": "0134a5347eca5022f70511f932fed873f61e8d64",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap20/20_3_Lottery_Tickets.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap20/20_3_Lottery_Tickets.ipynb"
+    },
+    {
+      "number": "20.4",
+      "title": "Adversarial attacks",
+      "description": "Construct fast gradient sign adversarial examples against an MNIST convolutional classifier.",
+      "path": "Notebooks/Chap20/20_4_Adversarial_Attacks.ipynb",
+      "sha256": "4f226e36851073373d676a23c28173762c5179764e1a5c7e05f64905b4518ae9",
+      "git_blob_sha": "efd73a02cfd3a65534cfb436ea120db9dc8e1106",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap20/20_4_Adversarial_Attacks.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap20/20_4_Adversarial_Attacks.ipynb"
+    },
+    {
+      "number": "21.1",
+      "title": "Bias mitigation",
+      "description": "Explore post-processing methods for mitigating bias in a simulated loan decision system.",
+      "path": "Notebooks/Chap21/21_1_Bias_Mitigation.ipynb",
+      "sha256": "53b04da2a3e0744f1ef2619141d5f2f6b08056d7f0d26054dc89388e0e44e03c",
+      "git_blob_sha": "63b2c9230ae472724365fd99526fa1726ab95f13",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap21/21_1_Bias_Mitigation.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap21/21_1_Bias_Mitigation.ipynb"
+    },
+    {
+      "number": "21.2",
+      "title": "Explainability",
+      "description": "Use LIME-style local explanations to interpret a simulated black-box credit scoring model.",
+      "path": "Notebooks/Chap21/21_2_Explainability.ipynb",
+      "sha256": "ce36c3dbd07273e25c870bb1cc937eed77de2fa7c0b90d03a44586018915d95e",
+      "git_blob_sha": "fcdd58003319265876eb2b857619e026fea1b705",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap21/21_2_Explainability.ipynb",
+      "upstream_notebook_url": "https://github.com/udlbook/udlbook/blob/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap21/21_2_Explainability.ipynb"
+    }
+  ],
+  "supporting_files": [
+    {
+      "path": "Notebooks/Chap10/test_image.png",
+      "sha256": "e4a5d8eee6e79f8a05940ce8968aedbedd2320cf38be6fc9ee2b5de2763634f9",
+      "git_blob_sha": "426b6f7273d02f8bfb0482998b6dbb6a515c0304",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap10/test_image.png"
+    },
+    {
+      "path": "Notebooks/Chap19/Empty.png",
+      "sha256": "e27c4e0299c1f24a5f809a9e6189fe48a368a93c1c050d76753116a787d6037b",
+      "git_blob_sha": "31423bb9918faeeb8740afb60634f25f52733401",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap19/Empty.png"
+    },
+    {
+      "path": "Notebooks/Chap19/Fish.png",
+      "sha256": "b360ddcca2d9c963f48b4608f30445d3f9e9bf4457b441f399871af81ba5a2f7",
+      "git_blob_sha": "8a1a34cc5037da408a9a3a44b2bcd19f754eddb6",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap19/Fish.png"
+    },
+    {
+      "path": "Notebooks/Chap19/Hole.png",
+      "sha256": "74896d44cebe4c6dd1710300dcae73ae9bfee19aaed2fdefa5a271639bf27377",
+      "git_blob_sha": "db8cdeaf87f2f71f2437589064f9a4dbd99d545a",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap19/Hole.png"
+    },
+    {
+      "path": "Notebooks/Chap19/Penguin.png",
+      "sha256": "ec52103fbd664121aeec00d8cba2e0ada510f0b87dee552b491cf21284b391d6",
+      "git_blob_sha": "1c745f6aebeb5a6798f425cefe3318325578a704",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Chap19/Penguin.png"
+    },
+    {
+      "path": "Notebooks/LICENSE (MIT)",
+      "sha256": "9f2186b40d892f9adb880cb11ea44ab56791f0a7a8ca9e6e66b73b84cdfb1153",
+      "git_blob_sha": "c3612d2d2655433d1954fd1c5efab2b54c3904b9",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/LICENSE%20%28MIT%29"
+    },
+    {
+      "path": "Notebooks/Info.txt",
+      "sha256": "765ed73a52cbdb84bd97a20108659f93407a81b2649a8380454d8abb5e6bbaf3",
+      "git_blob_sha": "6d71b66a56c6ca80c98943f6b31b2914c80bf0af",
+      "source_url": "https://raw.githubusercontent.com/udlbook/udlbook/da1334fb8e92700e1f2ff3216387da2e68af9d25/Notebooks/Info.txt"
+    }
+  ]
+}
