@@ -1,0 +1,14 @@
+# Local notebook and Python state
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+.DS_Store
+
+# Data and example checkouts created by the original notebooks
+**/data/
+**/mnist1d/
+*.pkl
+*.pickle
