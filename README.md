@@ -32,6 +32,12 @@ This installs JupyterLab and the common numerical and plotting packages. Later n
 
 Keep each notebook in its chapter folder so its supporting image paths resolve. Notebooks retain their original Colab-oriented shell commands, including `!wget`; when using the included images locally, skip image download cells if `wget` is unavailable. The source code and its original runtime assumptions are preserved.
 
+## Forking and contributions
+
+You are welcome to fork or copy this collection under the included [MIT notebook license](Notebooks/LICENSE%20%28MIT%29). Preserve the original author credits and license notices in your copies.
+
+This is a personal study collection maintained by the repository owner. External contributions are not accepted: new pull requests are restricted to collaborators, and issues and discussions are disabled.
+
 ## Notebook catalogue
 
 Each title links to the local copy. The **Source** link points to the exact upstream version downloaded.
